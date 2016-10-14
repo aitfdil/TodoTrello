@@ -1,0 +1,13 @@
+<div class="todo">
+    {% for todo in todos %}
+        <div class="card">
+            <div class="card-divider">
+                <a href="{{ path('todo_view', {'id': todo.id}) }}" class="button">View</a>
+            </div>
+            <div class="card-section">
+                <h2><a href="{{ path('todo_view', {'id': todo.id}) }}">{{ todo.name }}</a></h2>
+                <h4>{{ todo.description }}</h4>
+            </div>
+        </div>
+    {% endfor %}
+</div>

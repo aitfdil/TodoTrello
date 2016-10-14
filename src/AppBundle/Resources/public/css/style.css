@@ -1,0 +1,11 @@
+.footer {
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+}
+.grid-container {
+    padding: 5%;
+    max-width: 80%;
+}

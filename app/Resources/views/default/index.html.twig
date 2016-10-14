@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2>Todo List - trello</h2>
+    {{ render(controller('AppBundle:Todolist:list')) }}
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('bundles/app/css/index.css') }}">
+{% endblock %}

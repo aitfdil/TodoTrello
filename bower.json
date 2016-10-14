@@ -1,0 +1,22 @@
+{
+  "name": "ip_symfony",
+  "homepage": "https://github.com/Vin974/ip_symfony_fundamentals",
+  "authors": [
+    "DIJOUX Vincent <dijoux.vin@gmail.com>"
+  ], 
+  "description": "Symfony project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "foundation-apps": "^1.2.0"
+  }
+}

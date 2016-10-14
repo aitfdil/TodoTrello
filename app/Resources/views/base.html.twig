@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome to my project!{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('vendor/foundation-apps/dist/css/foundation-apps.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/app/css/style.css') }}">
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% include "externals" %}
+        <div class="grid-container">
+            {% block body %}{% endblock %}
+        </div>
+        {% include "externals" %}
+        <script src="{{ asset('vendor/foundation-apps/dist/js/foundation-apps.min.js') }}"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
