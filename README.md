@@ -1,4 +1,4 @@
-# TodoTrello
+# Todo
 This is demo app for todo list: Symfony2.8 Intruduction
 
 Clone project
