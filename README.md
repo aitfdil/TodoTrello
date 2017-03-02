@@ -9,6 +9,4 @@ after the instalation of vedors is over run:
 
 php app/console doctrine:database:create php app/console doctrine:schema:update --force
 
-Enjoy
-
-<3
+Enjoy! make with <3
